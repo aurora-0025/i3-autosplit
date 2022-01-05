@@ -3,7 +3,7 @@
 </h1>
 <h5 align="center">To dynamically change the split direction in I3/Sway so as to split new windows automatically based on the width and height of the focused window</h3>
 
-<p align="center">[Inspired By](https://www.google.com)</p>
+<p align="center"><a href="https://github.com/olemartinorg/i3-alternating-layout">Inspired By</a></p>
 
 ---
 
