@@ -21,7 +21,7 @@ Adding to your i3-autosplit to autostart of i3 config
 > Edit your i3 config file `~/.config/i3/config` add this line
 
 ```bash
-    exec --no-startup-id /path/to/i3-autosplit.py
+    exec --no-startup-id python /path/to/i3-autosplit.py
 ```
 
 ## Arch
@@ -36,7 +36,7 @@ Adding to your i3-autosplit to autostart of i3 config
 > Edit your i3 config file `~/.config/i3/config` add this line
 
 ```bash
-    exec --no-startup-id /path/to/i3-autosplit.py
+    exec --no-startup-id python /path/to/i3-autosplit.py
 ```
 # PREVIEW
 <h1 align="center">
