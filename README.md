@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="./images/thumbnail.png" width=50%/><br/>
 </h1>
-<h3 align="center">To dynamically change the split direction in I3/Sway so as to split new windows automatically based on the width and height of the window</h3>
+<h5 align="center">To dynamically change the split direction in I3/Sway so as to split new windows automatically based on the width and height of the focused window</h3>
 
 <p align="center"></p>
 
