@@ -2,7 +2,7 @@ from i3ipc import Connection, Event
 
 i3 = Connection()
 # Dynamically change the split direction on window focus
-def on_window(i3, e):
+def on_window_focus(i3, e):
     focused_window = e.container
     full=bool(focused_window.fullscreen_mode)
     if(not full):
@@ -17,5 +17,5 @@ def on_mode_change(i3, e):
     print(e.current.layout)
 
 # Subscribe to events
-i3.on(Event.WINDOW_FOCUS, on_window)
+i3.on(Event.WINDOW_FOCUS, on_window_focus)
 i3.main()
