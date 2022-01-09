@@ -13,9 +13,6 @@ def on_window_focus(i3, e):
             # set split to vertical          
             i3.command('split vertical')
 
-def on_mode_change(i3, e):
-    print(e.current.layout)
-
 # Subscribe to events
 i3.on(Event.WINDOW_FOCUS, on_window_focus)
 i3.main()
