@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/aurora-0025/i3-autosplit/blob/master/images/thumbnail.png?raw=true" width=50%/><br/>
+  <img width=150 src="https://github.com/aurora-0025/i3-autosplit/blob/master/i3-autosplit.png?raw=true"/><br/>
 </h1>
 <h5 align="center">To dynamically change the split direction in I3/Sway so as to split new windows automatically based on the width and height of the focused window</h3>
 
